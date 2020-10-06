@@ -73,7 +73,7 @@ public class BSTree  implements BST {
             ShowPostorder(node.rigthChild);
         }
     }
-public String find(BSTNode root, int key){// esta es la version recursiva del libro
+public String find(BSTNode root, int key){
         return find(root, key);
 }
 private  String Find(BSTNode current, int key){
